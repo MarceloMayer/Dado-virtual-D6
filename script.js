@@ -11,7 +11,7 @@ let img = document.getElementById('img-dado')
 img.src = 'img/0.png'
 
 //audio
-let audio = new Audio('/curso youtube/aula 16/som/dado-rolando.mp3')
+let audio = new Audio('som/dado-rolando.mp3')
 
 
 
