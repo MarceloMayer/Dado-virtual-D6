@@ -1,0 +1,61 @@
+/*geral*/
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+#title {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#title h1 {
+    font-weight: 900;
+    font-family: cursive;
+}
+
+#conteudo {
+    margin: 30px auto;
+}
+
+#conteudo #dado-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*indicador*/
+
+#indicacao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+#indicacao span {
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgb(18, 91, 236);
+    border-radius: 50%;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+/*botão*/
+#conteudo .botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#btn-sortear {
+    font-size: 1.4rem;
+    background-color: rgb(18, 91, 236);
+    color: white;
+}
+
+.hide {
+    display: none !important;
+}
